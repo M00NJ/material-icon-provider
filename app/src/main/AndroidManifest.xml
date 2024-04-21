@@ -12,16 +12,7 @@
         <meta-data
             android:name="org.breezyweather.DRAWABLE_FILTER"
             android:resource="@xml/drawable_filter" />
-        <meta-data
-            android:name="org.breezyweather.ANIMATOR_FILTER"
-            android:resource="@xml/animator_filter" />
-        <meta-data
-            android:name="org.breezyweather.SHORTCUT_FILTER"
-            android:resource="@xml/shortcut_filter" />
-        <meta-data
-            android:name="org.breezyweather.SUN_MOON_FILTER"
-            android:resource="@xml/sun_moon_filter" />
-
+       
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
