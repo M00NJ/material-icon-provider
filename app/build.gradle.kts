@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "org.breezyweather.materialiconprovider"
+    namespace = "com.moonj.materialiconprovider"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.breezyweather.materialiconprovider"
+        applicationId = "com.moonj.materialiconprovider"
         minSdk = 11
         targetSdk = 34
         versionCode = 4
