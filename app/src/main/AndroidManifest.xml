@@ -7,17 +7,17 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
         <meta-data
-            android:name="org.breezyweather.PROVIDER_CONFIG"
+            android:name="com.moonj.PROVIDER_CONFIG"
             android:resource="@xml/config" />
         <meta-data
-            android:name="org.breezyweather.DRAWABLE_FILTER"
+            android:name="com.moonj.DRAWABLE_FILTER"
             android:resource="@xml/drawable_filter" />
        
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="org.breezyweather.ICON_PROVIDER" />
+                <action android:name="com.moonj.ICON_PROVIDER" />
             </intent-filter>
         </activity>
 
